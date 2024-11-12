@@ -18,7 +18,7 @@
 .ul li {
     margin: 0 10px;
     list-style: none;
-    color: rgb(46, 43, 49);
+    color: rgb(0, 0, 0);
 }
 .img{
     height: 40px;
@@ -37,4 +37,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: border-color 0.5s ease;
+}
+
+@media (min-width:  760px){
+   
 }
