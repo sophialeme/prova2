@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: rgb(89, 119, 163);
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+}
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+.ul li {
+    margin: 0 10px;
+    list-style: none;
+    color: rgb(46, 43, 49);
+}
+.img{
+    height: 40px;
+}
+.logo{
+    height: 100%;
+}
+#baner {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://i0.wp.com/www.indavoula.com.br/wp-content/uploads/2019/09/como-vender-foto-na-internet-01.png?fit=1200%2C667&ssl=1);
+    background-position: 70% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: border-color 0.5s ease;
+}
